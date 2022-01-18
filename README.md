@@ -22,8 +22,8 @@ or <code>conda install -r requirements.txt</code><br>
 or <code>!pip install -r requirements.txt</code> for Google Colab.
      </pre>
  
- 3) Selenium requires browser specific drivers. Guides for Chrome and Firefox are mentioned below. Alternatively,this step is optional if the notebook is run on Google Colab.
-   Chrome: https://chromedriver.chromium.org/getting-started
+ 3) Selenium requires browser specific drivers. Guides for Chrome and Firefox are mentioned below. Alternatively,this step is optional if the notebook is run on Google Colab.<br>
+   Chrome: https://chromedriver.chromium.org/getting-started <br>
    Firefox: https://www.lambdatest.com/blog/selenium-firefox-driver-tutorial/
 </p>
 
@@ -31,8 +31,11 @@ or <code>!pip install -r requirements.txt</code> for Google Colab.
 <p>
  1)(Optional) Run the <code>IMDB Web scraper</code> . This generates the already provided csv file and imdb_movies pickle file.
  
- 2) Run the <code>IMDB Web scraper</code> on an environment which has GPU acceleration. Here it is used with Google Colab where Nvidia Tesla T4 or Nvidia Tesla K80 are allocated.
-  Training Time: Roughly 20-25 mins for 10 epochs with training batch size=8 and max length of each sentence=512 .
+ 2) Run the <code>IMDB Web scraper</code> on an environment which has GPU acceleration. Here it is used with Google Colab where Nvidia Tesla T4 or Nvidia Tesla K80 are allocated.<br><pre>
+  Training Time: Roughly 20-25 mins
+  Epochs: 10 
+  Training Batch Size: 8
+  Max length of each Sentence: 512 <br></pre>
   A <code>Movie_prediction_model</code> directory is created with <code>config.json</code> file(provided) and a <code>tf_model.h5</code> (not provided due to space constraints).
  </p>
  
