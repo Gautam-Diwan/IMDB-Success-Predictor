@@ -16,8 +16,7 @@ Project involves Web Scraping custom IMDB data between 2020 and 2021 of 10000 mo
  1) Ensure Python and Jupyter Notebook are installed. Optionally Conda environment can also be used.
  
  2) Install the required modules using 
-    <pre>
- <code>pip install -r requirements.txt</code> <br>
+ <pre><code>pip install -r requirements.txt</code> <br>
 or <code>conda install -r requirements.txt</code><br>
 or <code>!pip install -r requirements.txt</code> for Google Colab.
      </pre>
